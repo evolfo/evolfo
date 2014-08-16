@@ -30,7 +30,7 @@
   });
 </script>
 
-<!--==============================FANCY BOX STARTS================================-->
+<!--===============================FANCY BOX STARTS================================-->
 
 <!-- Add mousewheel plugin (this is optional) -->
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -229,10 +229,21 @@
   <div class="container">
     <div class="row-fluid PageHead inverse">
       <div class="span12">
-        <h3>ABOUT EVOLFO<span> <img src="images/underline.png" alt="______"></span></h3>
+        <h3 style="text-shadow: 1px 1px 1px #000;">ABOUT EVOLFO<span> <img src="images/underline.png" alt="______"></span></h3>
       </div>
     </div>
-    <p class="lead text-center">Evolfo defines a modern sound fusing classic funk, with high-energy dance music. The group of gypsies guarantee to throw down an infectious dance party leaving the audience begging for more.</p>
+    
+    
+    <p style="text-shadow: 1px 1px 1px #000; font-size: 18px; line-height: 115%; margin-top: -20px" class="lead text-center">To quote the Boston Herald, “This collective of ex-Berklee misfits label their music gypsy funk. Amazing a tag that rad could be so limiting. Evolfo does pop, punk, funk, ska, and Eastern European rhythms — sometimes in the same song”. The band brings together different styles to make something new. The result is raw, danceable and boisterous; an explosion of sound residing somewhere between Gogol Bordello and Dr. John, with a slew of other more obscure worldly influences."</p>
+    <div class="moreevents">      
+    <p style="text-shadow: 1px 1px 1px #000; font-size: 18px; line-height: 115%" class="lead text-center">Since they formed in high school in 2009, the veritable army that is Evolfo has been an enigma. Their music is a celebration of life! It implores you; rise up and live, get off your high-horse, forget your pretentions, your integrity, your professionalism and just dance. Evolfo bares a slew of influences: “This collective of ex-Berklee misfits label their music gypsy funk. Amazing a tag that rad could be so limiting. Evolfo does pop, punk, funk, ska, salsa and Eastern European rhythms — sometimes in the same song”(Boston Herlad, 2013). It is a bringing together of different styles to make something new. The result is raw, danceable and boisterous; an explosion of sound residing somewhere between Gogol Bordello and Dr. John, with a slew of other more obscure worldly influences such as King Khan and Rubblebucket. </p>
+
+    <p style="text-shadow: 1px 1px 1px #000; font-size: 18px; line-height: 115%" class="lead text-center">Perhaps best known for their live performances, Evolfo was discovered in the literal underground scene of Allston, MA's basement shows. There in Boston they formed their current lineup. It was here that Evolfo began to achieve some notoriety. Rising up, like many Boston bands before them, out of the basement show underworld and joining the ranks of other notable Boston funk/world acts like The Macrotones and Jesse Dee. They gained much support after their first independent release in September 2012 “The Food of Love” EP, which featured a song and video for what is perhaps the best known Evolfo track “You Light Me Up”. In December 2012 they were invited to perform in front of the entire Boston music community at the Boston Music Awards, where they were also announced winners of the “International Artist of the Year” award. Which came with a totally sweet trophy. Since then they have been sharing stages all over the US with acts such as Red Baraat, No BS! Brass Band, Hot 8 Brass Band, Betty Who, Moon Hooch, Counting Crows and others.</p>
+
+    <p style="text-shadow: 1px 1px 1px #000; font-size: 18px; line-height: 115%" class="lead text-center">In the fall of 2013, Evolfo moved from Boston to Brooklyn, jumping head first into the ever-competitive music scene that is New York City. Since that time, they have been carving a place for themselves in many different venues, making the rounds in New York venues. Evolfo wrote, recorded and manufactured its second frontline release without the help of a label. The two track, 7” Vinyl entitled FHF/Carry On will be released mid-September. Evolfo has always been of the “just get in the van and tour” school of thought so you never know where you might find them. They may be down south playing stages at SXSW or out west hitting such festivals as Hardly Strictly Bluegrass. Currently the best chance of catching Evolfo is at clubs and parties in the North East. If music be the food of love, play on!</p>
+    </div>
+    <p style="margin-bottom:-35px;" class="sectionfooter text-center"> <a class="showmore btn-link"><img src="images/show_icon.png" alt="icon"> <span>FULL BIO</span> </a> </p> 
+
     <div class="row-fluid PageHead inverse">
       <div class="span12">
        
@@ -550,13 +561,13 @@
 	
 </script> 
 
-<!-- ======= SHOW HIDE EVENTS - v1.1 ========= --> 
+<!-- ======= SHOW HIDE BIO - v1.1 ========= --> 
 <script>
 
  $(function() {
 	 $(".showmore").click(function() {
 		 $(".moreevents").slideToggle();
-		$(".showmore span").text(($(".showmore span").text() == "SHOW ALL EVENTS") ? "HIDE ALL EVENTS" : "SHOW ALL EVENTS") ; 
+		$(".showmore span").text(($(".showmore span").text() == "FULL BIO") ? "SHORT BIO" : "FULL BIO") ; 
 	 }); 
   });
 
