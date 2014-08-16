@@ -696,4 +696,139 @@ font-size: 42px;
 
 .playvideo {
 	position:relative;	
-} 
+} 
+
+/* INDIVIDUAL BIO CSS */
+
+#my-button {
+	padding: 0px;
+	border: 0px;
+}
+
+#my-button2 {
+	padding: 0px;
+	border: 0px;
+}
+
+#my-button3 {
+	padding: 0px;
+	border: 0px;
+}
+
+#my-button4 {
+	padding: 0px;
+	border: 0px;
+}
+
+#my-button5 {
+	padding: 0px;
+	border: 0px;
+}
+
+#my-button6 {
+	padding: 0px;
+	border: 0px;
+}
+
+#my-button7 {
+	padding: 0px;
+	border: 0px;
+}
+
+#my-button8 {
+	padding: 0px;
+	border: 0px;
+}
+
+
+#element_to_pop_up { display:none;
+left: 583px;
+position: absolute;
+top: 186px;
+z-index: 9999;
+opacity: 1;
+display: block;
+background-color: #fff;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 25px 5px #999;
+color: #111;
+display: none;
+max-width: 250px;
+padding: 25px;
+
+ }
+
+ #element_to_pop_up2,  #element_to_pop_up3,  #element_to_pop_up4,  #element_to_pop_up5,  #element_to_pop_up6,  #element_to_pop_up7,  #element_to_pop_up8 { display:none;
+left: 583px;
+position: absolute;
+top: 186px;
+z-index: 9999;
+opacity: 1;
+display: block;
+background-color: #fff;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 25px 5px #999;
+color: #111;
+display: none;
+max-width: 250px;
+padding: 25px;
+
+ }
+
+.b-close {
+border-radius: 7px;
+font: bold 131% sans-serif;
+padding: 0 6px 2px;
+background-color: #2b91af;
+color: #fff;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+position: absolute;
+right: -7px;
+top: -7px;
+}
+.b-close:hover {
+background-color: #1e1e1e;
+}
+
+span.text-content {
+position: absolute;
+background: rgba(0,0,0,0.5);
+color: white;
+cursor: pointer;
+display: table;
+width: 150px;
+height: 150px;
+opacity: 0;
+}
+
+span.text-content span {
+display: table-cell;
+vertical-align: middle;
+text-align: center;}
+
+span.text-content:hover; {
+opacity: 1;}
+
+span.text-content span:hover; {
+opacity: 1;}
+
+.teamName {
+	opacity: 0;
+	clear: both;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	color: black;
+	cursor: pointer;
+	display: table;
+	width: 200px;
+	height: 279px;
+}
+
+.teamName:hover {
+	opacity: 0.5;
+	text-align: center;
+	background-color: white;
+}
