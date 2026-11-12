@@ -14,7 +14,7 @@ I work across product, design, and engineering, taking ideas from early concepts
 
 ## Engineering
 
-At **Aleph RDI**, I build AI-powered healthcare workflows across Next.js/TypeScript and Go/gRPC. Recent work includes a document-grounded assistant and meeting transcription that cut manual documentation time by 40%.
+I build AI-powered healthcare workflows across Next.js/TypeScript and Go/gRPC. Recent work includes a document-grounded assistant and meeting transcription that cut manual documentation time by 40%.
 
 At **Wireshark Foundation**, I built and maintained websites serving 3M+ monthly users, improving load times by 36% and Lighthouse scores to 95+.
 
